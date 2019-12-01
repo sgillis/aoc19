@@ -1,0 +1,16 @@
+{application, aoc19,
+ [{description, "an otp application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {aoc19_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["apache 2.0"]},
+  {links, []}
+ ]}.
